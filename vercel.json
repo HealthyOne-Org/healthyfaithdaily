@@ -1,0 +1,19 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/privacy", "destination": "https://www.healthyoneapp.com/healthy-faith-privacy", "permanent": false },
+    { "source": "/terms", "destination": "https://www.healthyoneapp.com/healthy-faith-terms", "permanent": false },
+    { "source": "/account-deletion", "destination": "https://www.healthyoneapp.com/healthy-faith-account-deletion", "permanent": false },
+    { "source": "/feedback", "destination": "https://www.healthyoneapp.com/feedback/faith", "permanent": false },
+    { "source": "/instagram", "destination": "https://www.instagram.com/healthyfaithdaily/", "permanent": false },
+    { "source": "/ig", "destination": "https://www.instagram.com/healthyfaithdaily/", "permanent": false },
+    { "source": "/ios", "destination": "https://apps.apple.com/us/app/healthy-faith-bible-study/id6781374849?pt=128318750&ct=hfd_short&mt=8", "permanent": false },
+    { "source": "/android", "destination": "https://play.google.com/store/apps/details?id=com.healthyone.healthyfaith", "permanent": false },
+    { "source": "/bible", "destination": "https://play.google.com/store/apps/details?id=com.healthyone.faithdailybible", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/assets/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=604800" } ] },
+    { "source": "/blog/images/(.*)", "headers": [ { "key": "Cache-Control", "value": "public, max-age=604800" } ] }
+  ]
+}
