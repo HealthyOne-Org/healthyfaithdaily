@@ -61,3 +61,12 @@ Vercel deploys `main` automatically (1–2 min).
   posts (verify the target file exists). `<!--MID-->` about a third of the way down.
 - Bridge section near the end: how Healthy Faith (or Faith Daily Bible) does
   the thing the post is about. Link to `/#healthy-faith` or `/#faith-daily-bible`.
+
+## Amazon affiliate links
+`blog/_content/affiliate_products.json` (tag `healthyone00-20`, same Associates
+account and approach as HealthyOne). `blog_publish.py` adds a "Helpful for this"
+box with up to 3 Amazon search links + FTC disclosure below the app CTA, picked by
+keyword match. To choose them yourself, add `"affiliate": ["<search>", ...]` to the
+post JSON (only searches listed in the config; `[]` = none). Add new products to
+the config, never invent tags. Clicks are tracked as `affiliate_click` in PostHog.
+The homepage "Study tools" strip (`#study-tools` in index.html) uses the same config.
