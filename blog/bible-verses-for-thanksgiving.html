@@ -69,6 +69,10 @@ article li{margin-bottom:.5rem}
 #hfd-sticky .btn{padding:.45rem .8rem;font-size:.8rem}
 #hfd-sticky button{background:none;border:0;color:var(--ink3);font-size:1.4rem;cursor:pointer;line-height:1}
 body.has-sticky{padding-bottom:70px}
+.aff-box{background:var(--card);border:1px solid var(--rule);border-radius:16px;padding:1.1rem 1.3rem;margin:1.6rem 0 1rem}
+.aff-box .aff-h{font-family:var(--serif);font-weight:600;color:var(--ink);margin:0 0 .5rem;font-size:1.05rem}
+.aff-box ul{margin:0 0 .8rem 1.2rem;font-size:.98rem}
+.aff-box .aff-disc{font-size:.78rem;color:var(--ink3);margin:0;line-height:1.5}
 @media(max-width:520px){#hfd-sticky .tx{font-size:.78rem}#hfd-sticky .btn{padding:.45rem .6rem;font-size:.76rem}}
 </style>
 </head>
@@ -184,6 +188,16 @@ body.has-sticky{padding-bottom:70px}
       <a class="btn btn-ghost" href="https://play.google.com/store/apps/details?id=com.healthyone.faithdailybible" data-app="faith_daily_bible" data-placement="cta_box">Free Bible · Google Play</a>
     </div>
   </div>
+
+  <div class="aff-box">
+    <p class="aff-h">Helpful for this</p>
+    <ul>
+      <li><a href="https://www.amazon.com/s?k=guided+prayer+journal+christian&amp;tag=healthyone00-20" data-aff="amazon" data-aff-item="guided prayer journal christian" rel="sponsored nofollow noopener" target="_blank">Guided prayer journal</a> &mdash; A place to write prayers down and come back to see how they were answered.</li>
+      <li><a href="https://www.amazon.com/s?k=kjv+journaling+bible+wide+margin&amp;tag=healthyone00-20" data-aff="amazon" data-aff-item="kjv journaling bible wide margin" rel="sponsored nofollow noopener" target="_blank">KJV journaling Bible</a> &mdash; Wide margins for notes, prayers and cross-references right beside the text.</li>
+      <li><a href="https://www.amazon.com/s?k=christian+gratitude+journal&amp;tag=healthyone00-20" data-aff="amazon" data-aff-item="christian gratitude journal" rel="sponsored nofollow noopener" target="_blank">Christian gratitude journal</a> &mdash; A daily page for the "forget not all his benefits" list.</li>
+    </ul>
+    <p class="aff-disc">As an Amazon Associate, Healthy Faith Daily (Hardaway Labs) earns from qualifying purchases. These links may earn us a small commission at no extra cost to you. We only suggest things we think are useful for reading and studying the Bible.</p>
+  </div>
 </article>
 
 <footer>
@@ -213,5 +227,6 @@ body.has-sticky{padding-bottom:70px}
 if(bar&&Date.now()>until){bar.hidden=false;document.body.classList.add('has-sticky')}
 var c=document.getElementById('hfd-sticky-close');if(c){c.addEventListener('click',function(){bar.hidden=true;document.body.classList.remove('has-sticky');try{localStorage.setItem(K,String(Date.now()+7*864e5))}catch(e){}try{posthog.capture('blog_download_cta_click',{placement:'sticky_dismiss',store:'',site:'healthyfaithdaily'})}catch(e){}})}})();
 </script>
+<script>document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[data-aff]'):null;if(!a)return;try{posthog.capture('affiliate_click',{network:a.getAttribute('data-aff'),item:a.getAttribute('data-aff-item')||'',post:location.pathname,site:'healthyfaithdaily'})}catch(err){}},true);</script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+{
+ "_README": "Amazon Associates config for Healthy Faith Daily, same approach as HealthyOne (HardawayLabs/affiliate_products.json). scripts/blog_publish.py picks up to 3 products per post by keyword match (or the post JSON's optional \"affiliate\": [search, ...] list) and renders them below the app CTA with the disclosure. SEARCH links on purpose so discontinued products never 404. Only products listed here are used; never invent queries or tags.",
+ "amazon_associate_tag": "healthyone00-20",
+ "amazon_search_url_template": "https://www.amazon.com/s?k={QUERY}&tag={TAG}",
+ "disclosure": "As an Amazon Associate, Healthy Faith Daily (Hardaway Labs) earns from qualifying purchases. These links may earn us a small commission at no extra cost to you. We only suggest things we think are useful for reading and studying the Bible.",
+ "max_products_per_post": 3,
+ "products": [
+  {"search": "kjv journaling bible wide margin", "title": "KJV journaling Bible", "blurb": "Wide margins for notes, prayers and cross-references right beside the text.", "keywords": ["study", "journal", "notes", "kjv", "read", "reading plan", "word study", "anxiety", "verses"]},
+  {"search": "strongs exhaustive concordance", "title": "Strong's Exhaustive Concordance", "blurb": "The print reference behind the H and G numbers we cite in every word study.", "keywords": ["strong's", "hebrew", "greek", "word study", "meaning", "selah", "concordance"]},
+  {"search": "no bleed bible highlighters", "title": "No-bleed Bible highlighters", "blurb": "Gel highlighters that will not soak through thin Bible paper.", "keywords": ["study", "highlight", "sermon", "notes", "read", "reading plan"]},
+  {"search": "guided prayer journal christian", "title": "Guided prayer journal", "blurb": "A place to write prayers down and come back to see how they were answered.", "keywords": ["prayer", "pray", "anxiety", "grief", "hard seasons", "thanksgiving", "advent", "journal"]},
+  {"search": "sermon notes journal", "title": "Sermon notes journal", "blurb": "Prompted pages for the text, main points and one thing to do this week.", "keywords": ["sermon", "church", "notes", "preaching"]},
+  {"search": "christian gratitude journal", "title": "Christian gratitude journal", "blurb": "A daily page for the \"forget not all his benefits\" list.", "keywords": ["thanksgiving", "gratitude", "thankful", "psalm 103"]},
+  {"search": "advent wreath with candles", "title": "Advent wreath and candles", "blurb": "Four candles for the four Sundays, plus a center candle for Christmas.", "keywords": ["advent", "christmas", "wreath", "candle"]},
+  {"search": "family advent devotional book", "title": "Family Advent devotional", "blurb": "Short daily readings to go with the candle, written for children and parents together.", "keywords": ["advent", "christmas", "family", "devotional"]},
+  {"search": "bible tabs kjv", "title": "Bible book tabs", "blurb": "Find Isaiah, Micah and Luke fast when a reading plan jumps around.", "keywords": ["reading plan", "read", "beginner", "how to read", "advent"]}
+ ]
+}

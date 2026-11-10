@@ -23,7 +23,9 @@ JSON schema (blog/_content/<slug>.json):
   slug, title, description, keywords[], tags[], read_min, excerpt,
   cta_title, cta_text, body_html (may contain <!--MID--> where the mid image
   goes), faq[{q,a}], bottom_line,
-  optional: image_from, image_queries[hero, mid], hero_credit, mid_credit
+  optional: image_from, image_queries[hero, mid], hero_credit, mid_credit,
+            affiliate[] (Amazon search strings from blog/_content/affiliate_products.json;
+            [] = no products; omitted = auto-pick by keyword match)
 """
 from __future__ import annotations
 
@@ -47,6 +49,7 @@ SITEMAP = ROOT / "sitemap.xml"
 TOPICS = CONTENT / "topics.json"
 SITE = "https://www.healthyfaithdaily.com"
 HOME = ROOT / "index.html"
+AFFILIATES = CONTENT / "affiliate_products.json"
 
 REQUIRED = ["slug", "title", "description", "keywords", "tags", "read_min",
             "excerpt", "cta_title", "cta_text", "body_html", "faq", "bottom_line"]
@@ -68,6 +71,35 @@ def human_date(d: dt.date) -> str:
 def img_tag(slug: str, kind: str, title: str, cls: str) -> str:
     return (f'<img class="{cls}" src="/blog/images/{slug}-{kind}.jpg" alt="{esc_attr(title)}" '
             f'loading="lazy" width="1200" height="675">')
+
+
+def affiliate_html(post: dict) -> str:
+    """Amazon Associates box (search links + FTC disclosure), same approach as HealthyOne."""
+    if not AFFILIATES.exists():
+        return ""
+    cfg = json.loads(AFFILIATES.read_text())
+    products, tag = cfg.get("products", []), cfg.get("amazon_associate_tag", "")
+    n = int(cfg.get("max_products_per_post", 3))
+    if not tag:
+        return ""
+    if "affiliate" in post:
+        by = {p["search"]: p for p in products}
+        picks = [by[q] for q in post["affiliate"] if q in by][:n]
+    else:
+        hay = " ".join([post["slug"].replace("-", " "), post["title"], " ".join(post["keywords"]),
+                        " ".join(post["tags"])]).lower()
+        scored = [(sum(1 for k in p["keywords"] if k in hay), i, p) for i, p in enumerate(products)]
+        picks = [p for sc, i, p in sorted(scored, key=lambda x: (-x[0], x[1])) if sc > 0][:n]
+    if not picks:
+        return ""
+    tpl = cfg["amazon_search_url_template"]
+    items = "\n".join(
+        f'      <li><a href="{esc_attr(tpl.replace("{QUERY}", urllib.parse.quote_plus(p["search"])).replace("{TAG}", tag))}" '
+        f'data-aff="amazon" data-aff-item="{esc_attr(p["search"])}" rel="sponsored nofollow noopener" target="_blank">'
+        f'{p["title"]}</a> &mdash; {p["blurb"]}</li>' for p in picks)
+    print(f"  affiliate: {', '.join(p['title'] for p in picks)}")
+    return ('  <div class="aff-box">\n    <p class="aff-h">Helpful for this</p>\n    <ul>\n'
+            f'{items}\n    </ul>\n    <p class="aff-disc">{cfg["disclosure"]}</p>\n  </div>')
 
 
 def render(post: dict, date: dt.date) -> str:
@@ -116,6 +148,7 @@ def render(post: dict, date: dt.date) -> str:
               .replace("{{BOTTOM_LINE}}", post["bottom_line"].strip())
               .replace("{{CTA_TITLE}}", post["cta_title"].strip())
               .replace("{{CTA_TEXT}}", post["cta_text"].strip())
+              .replace("{{AFFILIATE}}", affiliate_html(post))
               .replace("{{KEYWORDS}}", ", ".join(post["keywords"]))
               .replace("{{DATE_HUMAN}}", human_date(date))
               .replace("{{READ_MIN}}", str(post["read_min"]))
