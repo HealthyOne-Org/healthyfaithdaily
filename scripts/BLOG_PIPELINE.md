@@ -14,7 +14,7 @@ with exactly that thing. Never a hard sell.
 ## Topic queue
 `blog/_content/topics.json`. Each run takes the first entry without a `done`
 date. When fewer than 3 are left, the run appends 10 more in the same shape.
-Four lanes, rotate through them:
+Five lanes, rotate through them (lane 5 at least every other post, Chris 11-12):
 1. **Verses for hard seasons** ("bible verses for anxiety / grief / doubt /
    discouragement / loneliness / fear / healing") → ties to The Way (guided
    paths). Group verses by the specific feeling; one line on how to pray each.
@@ -27,6 +27,23 @@ Four lanes, rotate through them:
    journal", "how to take sermon notes") → ties to plans, journal, sermon notes.
 4. **Free Bible app intent** ("free bible app no ads", "audio bible app free",
    "bible app with NIV and ESV") → ties to Faith Daily Bible. Compare honestly.
+5. **Hard questions people actually search** (Chris 11-12: "hot topics like drug
+   abuse, porn addiction, masturbation, witchcraft and what the Bible says, make
+   it interesting to read"): addiction, pornography, masturbation, witchcraft and
+   astrology, depression and suicidal thoughts, sex before marriage, gambling,
+   weed, tattoos, "can I lose my salvation". How to write them:
+   - Open with a real-life hook (a scene, a question someone texts their pastor at
+     midnight), not a definition. Short paragraphs, honest tone, never preachy.
+   - Say plainly what Scripture says, with exact KJV references (verify each
+     verse text; never invent one). If the Bible doesn't address it directly
+     (masturbation, tattoos, weed), SAY SO, then give the principles.
+   - Where Christians disagree, show the main views fairly.
+   - No shaming, no graphic detail, no fear-mongering. End with grace, hope and
+     one practical next step.
+   - Safety lines are REQUIRED where they apply: suicide → "call or text 988"
+     near the top; drugs or alcohol → SAMHSA 1-800-662-4357; gambling →
+     1-800-GAMBLER; any emergency → 911. Recommend a pastor or counselor.
+   → ties to The Way (guided paths) and the app's Ask feature.
 
 ## Files
 - `blog/_content/<slug>.json` — the post (schema in scripts/blog_publish.py)
