@@ -14,4 +14,20 @@
     cap('store_click',{app:app,store:store,placement:placement,path:location.pathname,site:'healthyfaithdaily'});
     cap('blog_download_cta_click',{placement:placement,store:store,path:location.pathname,app:app,site:'healthyfaithdaily'});
   },true);
+
+  // Download bar on every page (11-12). Blog posts ship their own #hfd-sticky + script, so only add it where missing.
+  if(!document.getElementById('hfd-sticky')){
+    var K='hfd_cta_dismissed',bar=document.createElement('div');
+    bar.id='hfd-sticky';bar.setAttribute('role','region');bar.setAttribute('aria-label','Get Healthy Faith');bar.hidden=true;
+    bar.innerHTML='<div class="in"><span class="tx">Get <strong>Healthy Faith</strong> free &middot; word study &amp; sermon notes</span>'+
+      '<a class="btn btn-primary" data-app="healthy_faith" data-placement="sticky" rel="nofollow noopener" href="https://apps.apple.com/us/app/healthy-faith-bible-study/id6781374849?pt=128318750&amp;ct=hfd_site_sticky&amp;mt=8">App&nbsp;Store</a>'+
+      '<a class="btn btn-dark" data-app="healthy_faith" data-placement="sticky" rel="nofollow noopener" href="https://play.google.com/store/apps/details?id=com.healthyone.healthyfaith">Google&nbsp;Play</a>'+
+      '<button type="button" aria-label="Dismiss">&times;</button></div>';
+    document.body.appendChild(bar);
+    var until=0;try{until=parseInt(localStorage.getItem(K)||'0',10)}catch(e){}
+    if(Date.now()>until){bar.hidden=false;document.body.classList.add('has-sticky')}
+    bar.querySelector('button').addEventListener('click',function(){bar.hidden=true;document.body.classList.remove('has-sticky');
+      try{localStorage.setItem(K,String(Date.now()+7*864e5))}catch(e){}
+      cap('blog_download_cta_click',{placement:'sticky_dismiss',store:'',path:location.pathname,site:'healthyfaithdaily'});});
+  }
 })();

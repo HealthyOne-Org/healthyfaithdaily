@@ -75,3 +75,13 @@ footer nav{display:flex;flex-wrap:wrap;gap:1rem}
 .small{font-size:.85rem;color:var(--ink3)}
 .store-row{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1rem}
 .divider{height:1px;background:var(--rule);margin:0}
+
+/* Download bar on every page (11-12: home and other pages had none; posts carry their own copy of these rules) */
+#hfd-sticky{position:fixed;left:0;right:0;bottom:0;z-index:60;background:var(--card);border-top:1px solid var(--rule);box-shadow:0 -6px 24px rgba(31,26,21,.1);padding:.6rem 16px calc(.6rem + env(safe-area-inset-bottom,0px))}
+#hfd-sticky .in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:.6rem}
+#hfd-sticky .tx{flex:1;font-size:.88rem;color:var(--ink2);line-height:1.3}
+#hfd-sticky .tx strong{color:var(--accent)}
+#hfd-sticky .btn{padding:.45rem .8rem;font-size:.8rem}
+#hfd-sticky button{background:none;border:0;color:var(--ink3);font-size:1.4rem;cursor:pointer;line-height:1}
+body.has-sticky{padding-bottom:70px}
+@media(max-width:520px){#hfd-sticky .tx{font-size:.78rem}#hfd-sticky .btn{padding:.45rem .6rem;font-size:.76rem}}
