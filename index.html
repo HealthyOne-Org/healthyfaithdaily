@@ -58,7 +58,10 @@ posthog.init('phc_jbeSYaK5OAsl5qbZbnsJYU3N3m5258lEZbVWoLWxPWo',{api_host:'https:
 .ig{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);padding:1.6rem;box-shadow:var(--shadow)}
 .ig .handle{font-weight:700;color:var(--ink);font-size:1.05rem}
 .ig .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:.5rem;margin:1rem 0}
-.ig .tiles div{aspect-ratio:9/14;border-radius:10px;background:linear-gradient(160deg,var(--muted),color-mix(in srgb,var(--accent) 30%,var(--muted)));display:flex;align-items:flex-end;padding:.5rem;font-family:var(--serif);font-size:.72rem;color:var(--ink2);line-height:1.2}
+.ig .tiles>*{position:relative;overflow:hidden;aspect-ratio:9/14;border-radius:10px;background:linear-gradient(160deg,var(--muted),color-mix(in srgb,var(--accent) 30%,var(--muted)));background-size:cover;background-position:center;display:flex;align-items:flex-end;padding:.5rem;font-family:var(--serif);font-size:.72rem;color:var(--ink2);line-height:1.2;text-decoration:none}
+.ig .tiles a{color:#fff}
+.ig .tiles a::before{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,0) 55%)}
+.ig .tiles a span{position:relative;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:760px){.daily .wrap{grid-template-columns:1fr}}
 .steps{counter-reset:s}
 .steps .card{position:relative;padding-top:2.2rem}
@@ -192,9 +195,11 @@ posthog.init('phc_jbeSYaK5OAsl5qbZbnsJYU3N3m5258lEZbVWoLWxPWo',{api_host:'https:
     <div class="ig">
       <div class="handle">@healthyfaithdaily</div>
       <div class="small">Sermon clips · Scripture · encouragement</div>
-      <div class="tiles" aria-hidden="true">
-        <div>What are you going back to?</div><div>I'm tired of this.</div><div>Thank you in advance.</div>
-        <div>When the enemy is you.</div><div>Your job vs. your work.</div><div>Suppose God says no.</div>
+      <div class="tiles">
+        <!-- REELS:START -->
+        <div><span>What are you going back to?</span></div><div><span>I'm tired of this.</span></div><div><span>Thank you in advance.</span></div>
+        <div><span>When the enemy is you.</span></div><div><span>Your job vs. your work.</span></div><div><span>Suppose God says no.</span></div>
+        <!-- REELS:END -->
       </div>
       <div class="small">New reel every day at 9 AM ET. Watch on Instagram, then open the passage in the app.</div>
     </div>
