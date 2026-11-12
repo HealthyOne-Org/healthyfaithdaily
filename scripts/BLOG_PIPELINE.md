@@ -14,7 +14,7 @@ with exactly that thing. Never a hard sell.
 ## Topic queue
 `blog/_content/topics.json`. Each run takes the first entry without a `done`
 date. When fewer than 3 are left, the run appends 10 more in the same shape.
-Five lanes, rotate through them (lane 5 at least every other post, Chris 11-12):
+Six lanes, rotate through them (Chris 11-12: lanes 5 and 6 carry the blog; the queue alternates them with the others):
 1. **Verses for hard seasons** ("bible verses for anxiety / grief / doubt /
    discouragement / loneliness / fear / healing") → ties to The Way (guided
    paths). Group verses by the specific feeling; one line on how to pray each.
@@ -44,6 +44,30 @@ Five lanes, rotate through them (lane 5 at least every other post, Chris 11-12):
      near the top; drugs or alcohol → SAMHSA 1-800-662-4357; gambling →
      1-800-GAMBLER; any emergency → 911. Recommend a pastor or counselor.
    → ties to The Way (guided paths) and the app's Ask feature.
+6. **Current events with a biblical lesson** (Chris 11-12: "research current
+   events and news and extract biblical lesson from it so blogs are relevant and
+   popular search results"). Queue entries with `"lane": "current_events"` have a
+   placeholder slug (`news-lesson-N`); the writer picks the story at write time:
+   - **Research first** (web search): the story from the last 7 days that the
+     most people are talking about and searching for. Good fits: a disaster and
+     how people helped, a public figure's fall or comeback, a cultural moment, a
+     money or work story, a sports story, a viral act of kindness, a new
+     technology people are anxious about. Read at least 3 reputable sources.
+   - **Rename the entry's slug** to match what people search
+     (`what-the-bible-says-about-<topic>-2026`) before building, and set
+     `keyword` to the real search phrase.
+   - **Structure:** what happened (5-6 plain sentences, facts only, with links
+     to 2+ reputable sources in the post) → the question it raises for a
+     believer → what Scripture says (exact KJV references, 3-5 passages) → one
+     thing to do or pray this week.
+   - **Rules:** facts must come from the sources, never from memory; no rumors
+     or unconfirmed details; never take a political party's side or tell
+     readers how to vote; no blaming victims or saying a tragedy was God's
+     judgment on someone; no end-times date-setting; name real people only for
+     what is publicly confirmed, and with charity; nothing copied from news
+     articles (our own words, short attributed quotes at most). If the week has
+     no story that fits, write the next queue entry instead and leave this one.
+   → ties to Ask ("ask the app what the Bible says about this") and The Way.
 
 ## Files
 - `blog/_content/<slug>.json` — the post (schema in scripts/blog_publish.py)
