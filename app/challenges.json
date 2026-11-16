@@ -1,0 +1,2260 @@
+{
+  "version": 2,
+  "updated": "2026-11-16",
+  "themes": [
+    {
+      "id": "acts",
+      "title": "Through Acts",
+      "description": "Draft — pending editorial. The story of the early church — the Spirit's movement from Jerusalem to Rome.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 28,
+      "min_length": 7,
+      "max_length": 60,
+      "core_arc": [
+        {
+          "passage_ref": "Acts 1:1-11",
+          "theme_anchor": "ascension",
+          "prayer_prompt": "Sit with the disciples staring at the sky. What are you waiting on?",
+          "ask_seed": "Why does the angel ask 'why do you stand gazing?'",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:1-21",
+          "theme_anchor": "pentecost",
+          "prayer_prompt": "Pray for the Spirit today. Use Peter's vocabulary: dreams, visions, prophecy.",
+          "ask_seed": "Why does Peter cite Joel rather than explain the wind and fire?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:42-47",
+          "theme_anchor": "early-church",
+          "prayer_prompt": "Read about teaching, fellowship, breaking bread, prayer. Which is dimmest in your life right now?",
+          "ask_seed": "How do different traditions read the early church's common life?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 9:1-19",
+          "theme_anchor": "damascus-road",
+          "prayer_prompt": "Pray for someone you have written off.",
+          "ask_seed": "Why does Saul's blindness lead to insight?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 10",
+          "theme_anchor": "no-unclean",
+          "prayer_prompt": "Pray about a category of people you've kept at arm's length.",
+          "ask_seed": "Why does Peter need a vision before going to a Gentile's house?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 16:6-15",
+          "theme_anchor": "macedonia-call",
+          "prayer_prompt": "Sit with the closed doors before the open one.",
+          "ask_seed": "Why does the Spirit forbid Paul before sending him?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 17:16-34",
+          "theme_anchor": "unknown-god",
+          "prayer_prompt": "Pray for a person of a different worldview, with respect.",
+          "ask_seed": "How does Paul use Athenian poetry to preach Christ?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "advent",
+      "title": "Advent",
+      "description": "Draft — pending editorial. The four weeks of waiting. Hope, peace, joy, love. Pinned in season.",
+      "category": "liturgical",
+      "safety_sensitive": false,
+      "default_length": 28,
+      "min_length": 7,
+      "max_length": 28,
+      "core_arc": [
+        {
+          "passage_ref": "Isaiah 9:2-7",
+          "theme_anchor": "great-light",
+          "prayer_prompt": "Light a candle. Pray about a darkness you wait in.",
+          "ask_seed": "Why is light the central image of Advent?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 11:1-10",
+          "theme_anchor": "branch-from-jesse",
+          "prayer_prompt": "Pray Isaiah's vision over a place of conflict.",
+          "ask_seed": "What kind of king is the Branch of Jesse?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 1:26-38",
+          "theme_anchor": "annunciation",
+          "prayer_prompt": "Sit with Mary's 'be it unto me.'",
+          "ask_seed": "Why is the messianic story announced first to Mary?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 1:46-55",
+          "theme_anchor": "magnificat",
+          "prayer_prompt": "Read the Magnificat aloud. Whose lowly state needs lifting today?",
+          "ask_seed": "Why is Mary's hymn one of reversal?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 2:1-20",
+          "theme_anchor": "manger",
+          "prayer_prompt": "Read the nativity slowly. Notice it is full of named ordinary people.",
+          "ask_seed": "Why are shepherds the first to hear?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "anxious",
+      "title": "Anxiety in Christ",
+      "description": "Two weeks in scripture's voice on fear, presence, and trust. Mirrors the Anxious Guided Path, slowed down across days.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Philippians 4:4-9",
+          "theme_anchor": "peace-that-guards",
+          "prayer_prompt": "Name one specific anxiety. Hand it to God in a sentence.",
+          "ask_seed": "What does Paul mean by 'the peace of God'? How is it different from calm?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:25-34",
+          "theme_anchor": "consider-the-birds",
+          "prayer_prompt": "Step outside, or to a window. Notice one created thing without trying to feel anything about it.",
+          "ask_seed": "Why does Jesus point to birds and lilies instead of arguing against worry?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 23",
+          "theme_anchor": "valley-with",
+          "prayer_prompt": "Pray verse 4 slowly. Where in your week is the valley?",
+          "ask_seed": "What does it mean that the shepherd is with the sheep in the valley, not above it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 41:8-13",
+          "theme_anchor": "fear-not-i-am",
+          "prayer_prompt": "Read 'fear not, for I am with thee' aloud. Substitute 'I' with your own name in the next line.",
+          "ask_seed": "How is 'I am with you' different from 'everything will be okay'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Peter 5:6-11",
+          "theme_anchor": "cast-and-resist",
+          "prayer_prompt": "Cast one care today. Hold no expectation about what happens next.",
+          "ask_seed": "Peter pairs casting cares with resisting the devil. Why those two together?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 56",
+          "theme_anchor": "tears-in-bottle",
+          "prayer_prompt": "Tell God one true thing about your fear today, before you tell him anything else.",
+          "ask_seed": "Why do the psalms let the singer be afraid AND trust at the same time?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Lamentations 3:22-26",
+          "theme_anchor": "rest-day",
+          "prayer_prompt": "No assignment. Sit with 'his compassions fail not. They are new every morning.'",
+          "ask_seed": "What does 'mercies new every morning' do to a tired person?",
+          "is_rest_day": true
+        },
+        {
+          "passage_ref": "Mark 4:35-41",
+          "theme_anchor": "storm-and-still",
+          "prayer_prompt": "What storm are you in? What would 'peace, be still' sound like inside it?",
+          "ask_seed": "Why do the disciples ask 'do you not care?' Is that question wrong?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 8:31-39",
+          "theme_anchor": "nothing-shall-separate",
+          "prayer_prompt": "Read the list of things that cannot separate you from God's love. Add one of your own at the end.",
+          "ask_seed": "Paul lists tribulation, distress, persecution, famine. Why include such concrete things?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 46",
+          "theme_anchor": "be-still",
+          "prayer_prompt": "Set a timer for two minutes. 'Be still, and know that I am God.' Just that.",
+          "ask_seed": "The psalm describes mountains shaking. Why does 'be still' belong in a psalm about chaos?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 14:25-27",
+          "theme_anchor": "peace-i-leave",
+          "prayer_prompt": "Receive a gift you didn't earn. Sit a moment with that idea before praying.",
+          "ask_seed": "Jesus' peace is 'not as the world gives.' What does the world's version of peace look like by contrast?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Hebrews 4:14-16",
+          "theme_anchor": "approach-with-confidence",
+          "prayer_prompt": "Come to God today as someone who is understood, not someone who has to explain.",
+          "ask_seed": "Why does Hebrews emphasize that the high priest 'sympathizes with our weakness'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Corinthians 12:7-10",
+          "theme_anchor": "grace-sufficient",
+          "prayer_prompt": "Name a weakness you wish was gone. Ask, instead, for sufficient grace within it.",
+          "ask_seed": "Paul says he 'gladly' boasts in weakness. Is that performance, or is something else happening?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 131",
+          "theme_anchor": "weaned-child",
+          "prayer_prompt": "'My soul is even as a weaned child.' Pray it as a place to land, not a thing to achieve.",
+          "ask_seed": "This psalm is only three verses. Why might brevity be part of its point?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "apologetics",
+      "title": "Reasons for Faith",
+      "description": "Two weeks in the passages Christians have turned to when asked why they believe: creation, fulfilled prophecy, the eyewitnesses, and the resurrection.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 5,
+      "max_length": 14,
+      "core_arc": [
+        {
+          "passage_ref": "1 Peter 3:13-17",
+          "theme_anchor": "ready-to-give-an-answer",
+          "prayer_prompt": "Ask for gentleness and respect whenever you speak about your hope.",
+          "ask_seed": "What does Peter say about how to give a reason for your hope?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalm 19",
+          "theme_anchor": "the-heavens-declare",
+          "prayer_prompt": "Go outside or look out a window, and praise the maker.",
+          "ask_seed": "What does Psalm 19 say creation tells us about God?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 1:16-25",
+          "theme_anchor": "known-from-what-is-made",
+          "prayer_prompt": "Thank God for making himself known.",
+          "ask_seed": "What does Paul say can be known about God from creation?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 17:16-34",
+          "theme_anchor": "paul-in-athens",
+          "prayer_prompt": "Pray for someone you know who is searching.",
+          "ask_seed": "How does Paul make his case to the philosophers in Athens?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 1:1-4; John 20:24-31",
+          "theme_anchor": "written-so-that-you-may-believe",
+          "prayer_prompt": "Bring your honest questions, as Thomas brought his.",
+          "ask_seed": "Why did Luke and John say they wrote their Gospels?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 53",
+          "theme_anchor": "the-suffering-servant",
+          "prayer_prompt": "Read it slowly, and thank him for bearing our griefs.",
+          "ask_seed": "How does the New Testament read Isaiah 53?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalm 22",
+          "theme_anchor": "a-psalm-from-the-cross",
+          "prayer_prompt": "Let the turn from anguish to praise in this psalm shape your prayer.",
+          "ask_seed": "How does Psalm 22 connect to the crucifixion of Jesus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Corinthians 15:1-19",
+          "theme_anchor": "the-witnesses-to-the-resurrection",
+          "prayer_prompt": "Thank God for those who handed the gospel on to you.",
+          "ask_seed": "What witnesses to the resurrection does Paul list?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:22-36",
+          "theme_anchor": "peters-case-at-pentecost",
+          "prayer_prompt": "Praise the God who raised Jesus up.",
+          "ask_seed": "What evidence does Peter give that Jesus is Lord and Christ?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 26:1-29",
+          "theme_anchor": "pauls-defense",
+          "prayer_prompt": "Pray for boldness, and for those who are almost persuaded.",
+          "ask_seed": "How does Paul defend his faith before King Agrippa?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 5:31-47",
+          "theme_anchor": "the-witnesses-to-jesus",
+          "prayer_prompt": "Ask to hear the scriptures point to him.",
+          "ask_seed": "What witnesses does Jesus name to support his claims?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Peter 1:16-21",
+          "theme_anchor": "eyewitnesses-not-fables",
+          "prayer_prompt": "Thank God for a word made more sure.",
+          "ask_seed": "Why does Peter stress that the apostles were eyewitnesses?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Job 38:1-21; Job 42:1-6",
+          "theme_anchor": "when-god-answers-job",
+          "prayer_prompt": "Bring the hardest question you carry about suffering.",
+          "ask_seed": "How does God answer Job's questions about suffering?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Timothy 3:14-17; Hebrews 11:1-6",
+          "theme_anchor": "scripture-and-faith",
+          "prayer_prompt": "Ask for faith that rests on what God has said.",
+          "ask_seed": "What does scripture say about itself in 2 Timothy 3?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "discouraged",
+      "title": "When Hope Feels Far",
+      "description": "Draft — pending editorial. Scripture meets discouragement before it argues with it.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "1 Kings 19:1-18",
+          "theme_anchor": "juniper-tree",
+          "prayer_prompt": "Notice that Elijah is fed and rested before God speaks. What do you need first today?",
+          "ask_seed": "Why does God let Elijah sleep before correcting his theology?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 42",
+          "theme_anchor": "why-cast-down",
+          "prayer_prompt": "Speak to your own soul today, not just to God.",
+          "ask_seed": "What does it mean to question your own discouragement without dismissing it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 73",
+          "theme_anchor": "until-i-came-into-the-sanctuary",
+          "prayer_prompt": "Read it slowly. Notice the turn at verse 17.",
+          "ask_seed": "Asaph almost loses his footing. What turns it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Corinthians 4:7-18",
+          "theme_anchor": "treasure-in-jars",
+          "prayer_prompt": "Pray about an inner cracking — not to fix it, but to receive treasure inside it.",
+          "ask_seed": "Why does Paul list pressure, perplexity, persecution as ordinary?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "doubting",
+      "title": "Honest Doubt",
+      "description": "Draft — pending editorial. Scripture welcomes questions; this challenge sits with the people in scripture who asked them.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "John 20:24-29",
+          "theme_anchor": "thomas",
+          "prayer_prompt": "Pray your honest 'I will not believe unless...' — and let it stand.",
+          "ask_seed": "Why does Jesus meet Thomas's demand on its own terms?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 9:14-29",
+          "theme_anchor": "help-my-unbelief",
+          "prayer_prompt": "Pray 'I believe; help my unbelief' as one prayer, not two.",
+          "ask_seed": "How can someone hold belief and unbelief at the same time?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Job 38-42",
+          "theme_anchor": "out-of-the-whirlwind",
+          "prayer_prompt": "Read several chapters at once. Don't try to extract a lesson.",
+          "ask_seed": "Why does God answer Job with questions instead of explanations?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Habakkuk 1-3",
+          "theme_anchor": "yet-i-will-rejoice",
+          "prayer_prompt": "Tell God what does not make sense to you about the world this week.",
+          "ask_seed": "Habakkuk's complaint becomes a hymn. What changed — the situation, or him?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "easter-octave",
+      "title": "Easter Octave",
+      "description": "Draft — pending editorial. The eight days from Easter Sunday through the following Sunday. Resurrection appearances.",
+      "category": "liturgical",
+      "safety_sensitive": false,
+      "default_length": 8,
+      "min_length": 3,
+      "max_length": 8,
+      "core_arc": [
+        {
+          "passage_ref": "John 20:1-18",
+          "theme_anchor": "mary-at-the-tomb",
+          "prayer_prompt": "Hear your name spoken by the risen Christ.",
+          "ask_seed": "Why is the first witness a woman, weeping?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 24:13-35",
+          "theme_anchor": "emmaus",
+          "prayer_prompt": "Walk a road today (literal or otherwise) listening for him.",
+          "ask_seed": "Why is recognition tied to the breaking of bread?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 20:19-29",
+          "theme_anchor": "behind-locked-doors",
+          "prayer_prompt": "Pray about a fear that has you behind a locked door.",
+          "ask_seed": "Why does the risen Christ keep his wounds?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 21:1-19",
+          "theme_anchor": "breakfast-on-shore",
+          "prayer_prompt": "Receive a restoration.",
+          "ask_seed": "Why does Jesus mirror Peter's three denials with three questions?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "end-times",
+      "title": "The End Times",
+      "description": "Three weeks reading what scripture says about the return of Christ, the resurrection, the judgment, and the new creation. Christians read some of these passages in different ways; this plan gives you the passages themselves.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 21,
+      "min_length": 5,
+      "max_length": 21,
+      "core_arc": [
+        {
+          "passage_ref": "Daniel 2:31-45",
+          "theme_anchor": "a-kingdom-that-will-never-end",
+          "prayer_prompt": "Thank God that his kingdom outlasts every other.",
+          "ask_seed": "What is the stone that strikes the statue in Nebuchadnezzar's dream?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Daniel 7",
+          "theme_anchor": "the-son-of-man",
+          "prayer_prompt": "Worship the one given dominion and glory and a kingdom.",
+          "ask_seed": "Who is the one like the Son of man in Daniel's vision?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Daniel 9:20-27",
+          "theme_anchor": "seventy-weeks",
+          "prayer_prompt": "Pray as Daniel did, confessing and asking for mercy.",
+          "ask_seed": "How have Christians understood the seventy weeks of Daniel 9?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Daniel 12",
+          "theme_anchor": "those-who-sleep-shall-awake",
+          "prayer_prompt": "Thank God for the hope of resurrection.",
+          "ask_seed": "What does Daniel 12 say about resurrection?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 65:17-25",
+          "theme_anchor": "new-heavens-and-a-new-earth",
+          "prayer_prompt": "Pray for the day when weeping is heard no more.",
+          "ask_seed": "What does Isaiah's picture of the new heavens and new earth promise?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Zechariah 14:1-11",
+          "theme_anchor": "the-day-of-the-lord",
+          "prayer_prompt": "Pray: let the Lord be king over all the earth.",
+          "ask_seed": "What happens on the day of the Lord in Zechariah 14?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 24:1-31",
+          "theme_anchor": "the-signs-jesus-named",
+          "prayer_prompt": "Ask for a steady heart that is not alarmed.",
+          "ask_seed": "What signs does Jesus describe, and what does he tell his disciples to do about them?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 24:32-51",
+          "theme_anchor": "no-one-knows-the-day",
+          "prayer_prompt": "Ask to be found faithful in what is in front of you.",
+          "ask_seed": "Why does Jesus say no one knows the day or the hour?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 25:31-46",
+          "theme_anchor": "the-sheep-and-the-goats",
+          "prayer_prompt": "Ask to see Christ in the least of these.",
+          "ask_seed": "On what basis does the King separate the sheep from the goats?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 21:5-36",
+          "theme_anchor": "watch-and-pray",
+          "prayer_prompt": "Pray for strength to stand before the Son of man.",
+          "ask_seed": "What does Jesus tell his followers to do while they wait?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 1:1-11",
+          "theme_anchor": "he-will-come-in-the-same-way",
+          "prayer_prompt": "Thank God for the promise the angels gave.",
+          "ask_seed": "What do the angels promise about Jesus's return?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Corinthians 15:35-58",
+          "theme_anchor": "we-shall-all-be-changed",
+          "prayer_prompt": "Give thanks for the victory over death.",
+          "ask_seed": "What does Paul teach about the resurrection body?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Thessalonians 4:13-18; 1 Thessalonians 5:1-11",
+          "theme_anchor": "comfort-one-another",
+          "prayer_prompt": "Pray for someone who is grieving, with this hope.",
+          "ask_seed": "What comfort does Paul give about those who have died in Christ?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Thessalonians 2:1-12",
+          "theme_anchor": "do-not-be-shaken",
+          "prayer_prompt": "Ask to love the truth.",
+          "ask_seed": "What does Paul say must happen before the day of the Lord?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Peter 3:1-13",
+          "theme_anchor": "the-lords-patience",
+          "prayer_prompt": "Thank God for his patience, with you and with the world.",
+          "ask_seed": "Why does Peter say the Lord seems slow to keep his promise?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 1",
+          "theme_anchor": "the-first-and-the-last",
+          "prayer_prompt": "Hear him say: fear not.",
+          "ask_seed": "How does John describe the risen Christ in Revelation 1?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 4-5",
+          "theme_anchor": "the-throne-and-the-lamb",
+          "prayer_prompt": "Join the song: worthy is the Lamb.",
+          "ask_seed": "Why is the Lamb the only one worthy to open the scroll?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 6-7",
+          "theme_anchor": "the-seals-and-the-great-multitude",
+          "prayer_prompt": "Pray for believers who suffer for their faith.",
+          "ask_seed": "Who is the great multitude in Revelation 7?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 12-13",
+          "theme_anchor": "the-dragon-and-the-beasts",
+          "prayer_prompt": "Pray for endurance and faithfulness.",
+          "ask_seed": "How have Christians understood the beasts of Revelation 13?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 19:11-21; Revelation 20",
+          "theme_anchor": "the-king-of-kings",
+          "prayer_prompt": "Worship the one called Faithful and True.",
+          "ask_seed": "What are the main ways Christians have understood the thousand years in Revelation 20?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 21-22",
+          "theme_anchor": "all-things-new",
+          "prayer_prompt": "Pray the last prayer of the Bible: even so, come, Lord Jesus.",
+          "ask_seed": "What does the new Jerusalem show about where the story of scripture ends?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "fasting-prep",
+      "title": "Preparing for Fasting",
+      "description": "Draft — pending editorial. Formative, not tracking. Why fast, what fasting IS in scripture, who fasted and how. No counters; this is a heart-orientation.",
+      "category": "discipline",
+      "safety_sensitive": false,
+      "default_length": 7,
+      "min_length": 3,
+      "max_length": 14,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 6:16-18",
+          "theme_anchor": "when-you-fast",
+          "prayer_prompt": "Notice Jesus says 'when you fast,' not 'if.' Pray about your assumptions.",
+          "ask_seed": "Why does Jesus assume fasting rather than command it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 58:1-12",
+          "theme_anchor": "fast-i-have-chosen",
+          "prayer_prompt": "Read the chapter. What is the fast that God actually wants from you this season?",
+          "ask_seed": "Why does Isaiah tie fasting to justice rather than only to private piety?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Joel 2:12-13",
+          "theme_anchor": "rend-your-heart",
+          "prayer_prompt": "Pray for a 'rent heart' before any rent garment.",
+          "ask_seed": "What is the difference between rending garments and rending hearts?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 4:1-13",
+          "theme_anchor": "led-by-the-spirit",
+          "prayer_prompt": "Sit with the fact that the Spirit led Jesus into the fast, not out of it.",
+          "ask_seed": "Why does Luke specify Jesus was 'led by the Spirit' into the wilderness?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "generosity",
+      "title": "A Scriptural View of Giving",
+      "description": "Draft — pending editorial. The why and posture of giving in scripture. Formative; no ledger, no counters.",
+      "category": "discipline",
+      "safety_sensitive": false,
+      "default_length": 7,
+      "min_length": 3,
+      "max_length": 14,
+      "core_arc": [
+        {
+          "passage_ref": "2 Corinthians 9:6-15",
+          "theme_anchor": "cheerful-giver",
+          "prayer_prompt": "Where is your giving begrudging? Pray about that, not about the amount.",
+          "ask_seed": "Paul says God loves a cheerful giver. Is that a threat or a permission?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 12:41-44",
+          "theme_anchor": "widow-mites",
+          "prayer_prompt": "What does proportional generosity look like for you?",
+          "ask_seed": "Why does Jesus single out the widow's two coins over the larger gifts?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:42-47",
+          "theme_anchor": "had-all-in-common",
+          "prayer_prompt": "Read about the early church. What does this raise in you?",
+          "ask_seed": "Catholic, Orthodox, Reformed, and Arminian traditions each read Acts 2 differently. How?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 John 3:16-18",
+          "theme_anchor": "in-deed-and-truth",
+          "prayer_prompt": "Identify one concrete act of love this week. Don't tell anyone you did it.",
+          "ask_seed": "Why does John insist on love 'in deed' alongside love 'in word'?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "genesis-1-11",
+      "title": "Genesis 1-11",
+      "description": "Draft — pending editorial. The primeval narratives — creation, fall, flood, scattering. Foundational stories Israel told about God, humanity, and the world.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 11,
+      "min_length": 5,
+      "max_length": 21,
+      "core_arc": [
+        {
+          "passage_ref": "Genesis 1:1-2:3",
+          "theme_anchor": "in-the-beginning",
+          "prayer_prompt": "Read the seven days. Notice the rhythm 'and it was good.'",
+          "ask_seed": "Why does the creation account culminate in rest, not in humanity?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 2:4-25",
+          "theme_anchor": "made-from-dust",
+          "prayer_prompt": "Pray about your own embodiment today, not in the abstract.",
+          "ask_seed": "Why are there two creation accounts, and how do Christian traditions read them together?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 3",
+          "theme_anchor": "where-art-thou",
+          "prayer_prompt": "Hear God's question — 'where are you?' — addressed to you today.",
+          "ask_seed": "Why does God ask a question he already knows the answer to?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 4:1-16",
+          "theme_anchor": "your-brother",
+          "prayer_prompt": "Pray for the relationship most strained in your life.",
+          "ask_seed": "Why does Cain's offering get rejected? The text leaves it ambiguous — what do traditions do with that?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 6-9 (selections)",
+          "theme_anchor": "ark-and-bow",
+          "prayer_prompt": "Sit with the long flood narrative. What does it cost God?",
+          "ask_seed": "Why does the flood end with a covenant signed in the sky?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "grieving",
+      "title": "Comfort in Grief",
+      "description": "Draft — pending editorial. Scripture's lament tradition meeting grief without hurrying it.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Lamentations 3:1-33",
+          "theme_anchor": "yet-this-i-call",
+          "prayer_prompt": "Read slowly. Don't rush to verse 22.",
+          "ask_seed": "Why does scripture include lament that does not resolve?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 11:17-44",
+          "theme_anchor": "jesus-wept",
+          "prayer_prompt": "Tell God what you are not done grieving for.",
+          "ask_seed": "Why does Jesus weep when he knows what is about to happen?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 88",
+          "theme_anchor": "darkness-is-my-companion",
+          "prayer_prompt": "Pray it as it is. Don't add a hopeful coda the psalm refuses.",
+          "ask_seed": "What does it mean that the only psalm without resolution is still scripture?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Revelation 21:1-5",
+          "theme_anchor": "wipe-every-tear",
+          "prayer_prompt": "Hold a hope you cannot yet feel. Sit with it for a minute.",
+          "ask_seed": "Why does the new creation begin with the absence of tears, specifically?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "holy-week",
+      "title": "Holy Week",
+      "description": "Draft — pending editorial. Palm Sunday through Easter Vigil. The dense, slow week of the gospel.",
+      "category": "liturgical",
+      "safety_sensitive": false,
+      "default_length": 8,
+      "min_length": 3,
+      "max_length": 8,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 21:1-11",
+          "theme_anchor": "palms",
+          "prayer_prompt": "Hear the crowd's hosanna. Pray it as your own.",
+          "ask_seed": "Why does Jesus enter on a donkey?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 13:1-17",
+          "theme_anchor": "washed-feet",
+          "prayer_prompt": "Be the one Jesus stoops to.",
+          "ask_seed": "Why does foot-washing replace the supper in John's account?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 26:36-46",
+          "theme_anchor": "gethsemane",
+          "prayer_prompt": "Pray honestly about what you do not want.",
+          "ask_seed": "What does it mean for Jesus to pray the same prayer three times?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 19",
+          "theme_anchor": "good-friday",
+          "prayer_prompt": "Read it without commentary today. Don't move past it quickly.",
+          "ask_seed": "Why is the day of crucifixion called 'good'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 27:62-66 + Lamentations 3:1-9",
+          "theme_anchor": "saturday-silence",
+          "prayer_prompt": "Sit in the in-between day. No assignment.",
+          "ask_seed": "What does Holy Saturday teach the church about waiting?",
+          "is_rest_day": true
+        },
+        {
+          "passage_ref": "John 20:1-18",
+          "theme_anchor": "easter",
+          "prayer_prompt": "Hear your name spoken by the risen Christ.",
+          "ask_seed": "Why does Mary not recognize him until he says her name?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "john",
+      "title": "Through John",
+      "description": "Draft — pending editorial. The fourth gospel — signs, 'I am' sayings, and the long discourses of Jesus.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 21,
+      "min_length": 7,
+      "max_length": 60,
+      "core_arc": [
+        {
+          "passage_ref": "John 1:1-18",
+          "theme_anchor": "word-made-flesh",
+          "prayer_prompt": "Read the prologue out loud, slowly.",
+          "ask_seed": "Why does John open in the beginning, before the manger?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 4:1-26",
+          "theme_anchor": "well-and-water",
+          "prayer_prompt": "Pray about a place in your life where you keep going back to a 'well' that doesn't fill you.",
+          "ask_seed": "Why does Jesus reveal his identity to a Samaritan woman first?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 6:35-59",
+          "theme_anchor": "bread-of-life",
+          "prayer_prompt": "Pray to be fed.",
+          "ask_seed": "What do Catholic, Orthodox, Reformed, and Arminian readers each emphasize about John 6?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 11:17-44",
+          "theme_anchor": "i-am-resurrection",
+          "prayer_prompt": "Sit with 'Jesus wept' before any miracle.",
+          "ask_seed": "Why does Jesus weep when he knows what he is about to do?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 13:1-17",
+          "theme_anchor": "washed-feet",
+          "prayer_prompt": "Imagine being the one Jesus stoops to.",
+          "ask_seed": "Why does the foot-washing replace the institution of the supper in John?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 17:1-26",
+          "theme_anchor": "high-priestly",
+          "prayer_prompt": "Pray verses 20-21 — that you are inside what Jesus prays for.",
+          "ask_seed": "What does Jesus' prayer for 'oneness' mean across Christian traditions?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 21:1-19",
+          "theme_anchor": "feed-my-sheep",
+          "prayer_prompt": "Receive a restoration you didn't earn.",
+          "ask_seed": "Why does Jesus ask Peter the same question three times?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "lent",
+      "title": "Lent",
+      "description": "Draft — pending editorial. Forty days of return. Repentance not as scolding but as homecoming.",
+      "category": "liturgical",
+      "safety_sensitive": false,
+      "default_length": 40,
+      "min_length": 7,
+      "max_length": 46,
+      "core_arc": [
+        {
+          "passage_ref": "Joel 2:12-13",
+          "theme_anchor": "rend-your-heart",
+          "prayer_prompt": "Pray for a soft heart.",
+          "ask_seed": "Why does Joel locate repentance in heart-rending, not garment-rending?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 51",
+          "theme_anchor": "create-clean",
+          "prayer_prompt": "Pray verses 10-12 over yourself today.",
+          "ask_seed": "Why does David ask God to 'create' a clean heart?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 4:1-11",
+          "theme_anchor": "wilderness",
+          "prayer_prompt": "Sit with Jesus in his hunger.",
+          "ask_seed": "Why does Lent begin with wilderness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 15:11-32",
+          "theme_anchor": "prodigal",
+          "prayer_prompt": "Read the parable. Where are you in the story today?",
+          "ask_seed": "Why does the father run?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 55",
+          "theme_anchor": "come-to-the-water",
+          "prayer_prompt": "Hear the invitation: come, eat, drink, return.",
+          "ask_seed": "Why is Lent's repentance described as a banquet?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "miracles-of-jesus",
+      "title": "The Miracles of Jesus",
+      "description": "Three weeks with the signs and wonders of Jesus: water into wine, storms stilled, the sick healed, the dead raised, and the empty tomb.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 21,
+      "min_length": 5,
+      "max_length": 21,
+      "core_arc": [
+        {
+          "passage_ref": "John 2:1-11",
+          "theme_anchor": "water-into-wine",
+          "prayer_prompt": "Thank God for joy, and for the quiet ways he provides.",
+          "ask_seed": "Why does John call this the first of Jesus's signs?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 5:1-11",
+          "theme_anchor": "the-great-catch",
+          "prayer_prompt": "Tell Jesus where you have worked all night and caught nothing.",
+          "ask_seed": "Why does Peter fall at Jesus's knees after the catch of fish?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 1:21-34",
+          "theme_anchor": "authority-over-spirits-and-sickness",
+          "prayer_prompt": "Bring to Jesus the people you know who are sick.",
+          "ask_seed": "What does this passage show about the authority of Jesus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 1:40-45",
+          "theme_anchor": "a-leper-made-clean",
+          "prayer_prompt": "Pray the leper's words: if you will, you can make me clean.",
+          "ask_seed": "Why did it matter that Jesus touched the leper?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 2:1-12",
+          "theme_anchor": "forgiven-and-healed",
+          "prayer_prompt": "Carry a friend to Jesus in prayer, as the four carried theirs.",
+          "ask_seed": "Why does Jesus forgive the man's sins before he heals him?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 8:5-13",
+          "theme_anchor": "the-centurions-faith",
+          "prayer_prompt": "Ask for faith that takes Jesus at his word.",
+          "ask_seed": "What did Jesus find remarkable about the centurion's faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 7:11-17",
+          "theme_anchor": "the-widows-son",
+          "prayer_prompt": "Thank God that he sees those who grieve.",
+          "ask_seed": "What moved Jesus to raise the widow's son?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 4:35-41",
+          "theme_anchor": "the-storm-stilled",
+          "prayer_prompt": "Name the storm you are in, and ask him to speak into it.",
+          "ask_seed": "What do the disciples learn about Jesus when he calms the storm?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 5:1-20",
+          "theme_anchor": "a-man-set-free",
+          "prayer_prompt": "Pray for someone who seems beyond help.",
+          "ask_seed": "Why does Jesus send the healed man home instead of letting him follow?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 5:21-43",
+          "theme_anchor": "a-daughter-and-a-woman",
+          "prayer_prompt": "Reach for him in prayer the way the woman reached for his garment.",
+          "ask_seed": "How are the two healings in this passage connected?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 5:1-15",
+          "theme_anchor": "at-the-pool-of-bethesda",
+          "prayer_prompt": "Hear his question as yours: do you want to be made well?",
+          "ask_seed": "Why does Jesus ask the man whether he wants to be healed?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 6:1-15",
+          "theme_anchor": "five-loaves-and-two-fish",
+          "prayer_prompt": "Offer God the little you have for today.",
+          "ask_seed": "What does the feeding of the five thousand show about who Jesus is?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 14:22-33",
+          "theme_anchor": "walking-on-the-water",
+          "prayer_prompt": "Pray Peter's short prayer: Lord, save me.",
+          "ask_seed": "Why does Peter begin to sink?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 7:24-37",
+          "theme_anchor": "crumbs-and-opened-ears",
+          "prayer_prompt": "Ask boldly, like the mother who would not be turned away.",
+          "ask_seed": "What does the Syrophoenician woman's answer show about her faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 8:22-26",
+          "theme_anchor": "sight-in-two-stages",
+          "prayer_prompt": "Ask to see clearly what you now see only in part.",
+          "ask_seed": "Why might Jesus have healed this blind man in two stages?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 9:14-29",
+          "theme_anchor": "help-my-unbelief",
+          "prayer_prompt": "Pray the father's prayer: I believe; help my unbelief.",
+          "ask_seed": "What does this passage teach about faith and prayer?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 9",
+          "theme_anchor": "the-man-born-blind",
+          "prayer_prompt": "Thank God for whatever you can now see that you once could not.",
+          "ask_seed": "What does Jesus say about why the man was born blind?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 17:11-19",
+          "theme_anchor": "ten-healed-one-returns",
+          "prayer_prompt": "Go back and give thanks for one thing he has done.",
+          "ask_seed": "Why does Jesus point out that only the Samaritan came back?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 11:1-44",
+          "theme_anchor": "lazarus-come-forth",
+          "prayer_prompt": "Bring your grief to the one who wept at the tomb.",
+          "ask_seed": "Why did Jesus wait two days before going to Lazarus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 10:46-52",
+          "theme_anchor": "bartimaeus",
+          "prayer_prompt": "Answer his question: what do you want me to do for you?",
+          "ask_seed": "What does Bartimaeus show about how to come to Jesus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 24:1-12",
+          "theme_anchor": "the-empty-tomb",
+          "prayer_prompt": "Praise him: he is not here, but is risen.",
+          "ask_seed": "Why is the resurrection the greatest of the signs?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "parables-of-jesus",
+      "title": "The Parables of Jesus",
+      "description": "Two weeks in the stories Jesus told about the kingdom of God: the sower, the good Samaritan, the lost son, and more.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 5,
+      "max_length": 14,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 13:1-23",
+          "theme_anchor": "the-sower",
+          "prayer_prompt": "Ask God to make your heart good soil for his word.",
+          "ask_seed": "What do the four soils stand for in the parable of the sower?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 13:24-43",
+          "theme_anchor": "weeds-mustard-seed-and-leaven",
+          "prayer_prompt": "Thank God for the small beginnings he grows.",
+          "ask_seed": "What do the mustard seed and the leaven teach about the kingdom?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 13:44-52",
+          "theme_anchor": "treasure-and-the-pearl",
+          "prayer_prompt": "Ask to see the kingdom as worth everything.",
+          "ask_seed": "Why does the man sell all he has for the field?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 10:25-37",
+          "theme_anchor": "the-good-samaritan",
+          "prayer_prompt": "Ask God to show you who is on your road today.",
+          "ask_seed": "How does Jesus answer the question, who is my neighbor?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 11:5-13",
+          "theme_anchor": "the-friend-at-midnight",
+          "prayer_prompt": "Keep asking for the thing you have nearly stopped praying about.",
+          "ask_seed": "What does this parable teach about asking God?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 12:13-21",
+          "theme_anchor": "the-rich-fool",
+          "prayer_prompt": "Thank God for what you have, and hold it with open hands.",
+          "ask_seed": "What was the rich man's mistake?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 14:15-24",
+          "theme_anchor": "the-great-banquet",
+          "prayer_prompt": "Say yes to his invitation today.",
+          "ask_seed": "Who ends up at the banquet, and why?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 15:1-10",
+          "theme_anchor": "the-lost-sheep-and-the-lost-coin",
+          "prayer_prompt": "Thank God that he searches until he finds.",
+          "ask_seed": "What do these two parables show about how God sees the lost?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 15:11-32",
+          "theme_anchor": "the-lost-son",
+          "prayer_prompt": "Come home in prayer, whichever brother you are today.",
+          "ask_seed": "What does the father's welcome show about God?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 16:19-31",
+          "theme_anchor": "the-rich-man-and-lazarus",
+          "prayer_prompt": "Ask to notice who is at your gate.",
+          "ask_seed": "What is the warning in the story of the rich man and Lazarus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 18:1-14",
+          "theme_anchor": "the-widow-and-the-two-men-at-prayer",
+          "prayer_prompt": "Pray the tax collector's prayer: God, be merciful to me a sinner.",
+          "ask_seed": "Why did the tax collector go home justified rather than the Pharisee?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 18:21-35",
+          "theme_anchor": "the-unforgiving-servant",
+          "prayer_prompt": "Remember how much you have been forgiven.",
+          "ask_seed": "Why is the first servant's debt so large in this parable?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 20:1-16",
+          "theme_anchor": "the-workers-in-the-vineyard",
+          "prayer_prompt": "Thank God that his grace is not wages.",
+          "ask_seed": "Why do the workers who came last receive the same pay?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 25:14-30",
+          "theme_anchor": "the-talents",
+          "prayer_prompt": "Offer back to God what he has placed in your hands.",
+          "ask_seed": "What does the master expect of each servant?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "philippians",
+      "title": "Through Philippians",
+      "description": "A slow walk through Paul's letter from prison — joy, partnership, the mind of Christ, and what it means to learn contentment.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Philippians 1:1-11",
+          "theme_anchor": "thanks-and-prayer",
+          "prayer_prompt": "Pray Paul's prayer (vv. 9-11) for someone you're partnered with in faith.",
+          "ask_seed": "Paul writes from prison. How does his greeting reflect — or not reflect — his circumstances?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 1:12-18",
+          "theme_anchor": "gospel-advances",
+          "prayer_prompt": "Where in your week does the gospel seem 'stuck'? Tell God what you see.",
+          "ask_seed": "Paul says some preach Christ from envy or rivalry, and he rejoices anyway. What does that show about his loyalties?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 1:19-26",
+          "theme_anchor": "to-live-is-christ",
+          "prayer_prompt": "'To live is Christ, to die is gain.' Read it slowly, then pray honestly about which feels closer today.",
+          "ask_seed": "Why does Paul prefer to depart but choose to remain?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 1:27-30",
+          "theme_anchor": "worthy-of-the-gospel",
+          "prayer_prompt": "Where does your conduct most need to 'become' the gospel today?",
+          "ask_seed": "Paul says suffering for Christ is 'granted' as a gift. How can suffering be a gift without that being a cliché?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 2:1-11",
+          "theme_anchor": "mind-of-christ",
+          "prayer_prompt": "Read the Christ hymn (vv. 6-11) aloud. Whose interests are you tempted to count above your own this week?",
+          "ask_seed": "What do Catholic, Orthodox, Reformed, and Arminian readers each tend to highlight in the kenosis hymn?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 2:12-18",
+          "theme_anchor": "work-out-salvation",
+          "prayer_prompt": "Pray verse 13 — 'God works in you to will and to do.' Name one thing you've been trying to do alone.",
+          "ask_seed": "How can Paul say 'work out your own salvation' AND 'God works in you' in the same breath?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 2:19-30",
+          "theme_anchor": "rest-day",
+          "prayer_prompt": "Sit with the names — Timothy, Epaphroditus. Who carries your faith with you?",
+          "ask_seed": "Why does Paul spend so much of a short letter on personal news and named friends?",
+          "is_rest_day": true
+        },
+        {
+          "passage_ref": "Philippians 3:1-11",
+          "theme_anchor": "count-as-loss",
+          "prayer_prompt": "What credentials are you holding? Hand one to Christ today, even loosely.",
+          "ask_seed": "Paul calls his pedigree 'rubbish.' Is he denying his story or reordering it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 3:12-16",
+          "theme_anchor": "press-on",
+          "prayer_prompt": "Pray about something behind you you keep looking at. Ask for the grace to press on without contempt for the past.",
+          "ask_seed": "What does it mean that Paul has not yet 'attained' even after all his ministry?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 3:17-21",
+          "theme_anchor": "citizenship-in-heaven",
+          "prayer_prompt": "Where do you act, today, as someone whose true citizenship is elsewhere?",
+          "ask_seed": "Paul cries when describing 'enemies of the cross.' Why grief and not anger?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 4:1-7",
+          "theme_anchor": "rejoice-and-pray",
+          "prayer_prompt": "Make a prayer that's mostly thanks today, then add one anxiety at the end.",
+          "ask_seed": "Why does 'be careful for nothing' come right after a call to gentleness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 4:8-9",
+          "theme_anchor": "think-on-these",
+          "prayer_prompt": "List the eight Phil 4:8 attributes. Choose one to look for today.",
+          "ask_seed": "Is Paul prescribing positive thinking? If not, what?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 4:10-14",
+          "theme_anchor": "learned-contentment",
+          "prayer_prompt": "Pray about a place of plenty AND a place of want in your life right now.",
+          "ask_seed": "Paul says he 'learned' contentment. What does that imply about how it comes?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Philippians 4:15-23",
+          "theme_anchor": "shared-account",
+          "prayer_prompt": "Thank God for someone whose generosity has reached you — name them.",
+          "ask_seed": "Why does Paul frame the Philippians' gift as 'fruit that abounds to your account'?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "prayer-foundations",
+      "title": "Prayer Foundations",
+      "description": "Two weeks learning to pray with scripture as a teacher — the Lord's Prayer, the Psalms, and Jesus' own habits of prayer.",
+      "category": "discipline",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 6:5-15",
+          "theme_anchor": "our-father",
+          "prayer_prompt": "Pray the Lord's Prayer slowly, one phrase per breath. Notice which one your heart catches on.",
+          "ask_seed": "Why does Jesus give a model prayer rather than just 'pray more'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 11:1-13",
+          "theme_anchor": "ask-seek-knock",
+          "prayer_prompt": "Ask for one thing today. Don't dress it up.",
+          "ask_seed": "Why does the disciple ask 'teach us to pray' after watching Jesus pray, not before?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 1:35",
+          "theme_anchor": "alone-in-the-dark",
+          "prayer_prompt": "Find a place that's quiet and private. Pray for one minute. That counts.",
+          "ask_seed": "Why does Mark mention the time of day when describing Jesus' prayer?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 5",
+          "theme_anchor": "morning-prayer",
+          "prayer_prompt": "Pray the psalm as your own this morning, even if not all of it fits.",
+          "ask_seed": "How is praying a psalm different from making up your own words?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 8:26-27",
+          "theme_anchor": "spirit-helps",
+          "prayer_prompt": "Sit in silence for two minutes. Let the Spirit groan on your behalf.",
+          "ask_seed": "What does it mean that we don't know what to pray for as we ought?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 13",
+          "theme_anchor": "how-long",
+          "prayer_prompt": "Pray your own 'how long?' to God. Don't end it neatly.",
+          "ask_seed": "Why is it permissible — even biblical — to complain to God?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 100",
+          "theme_anchor": "rest-day",
+          "prayer_prompt": "No assignment. Read the psalm and rest in praise.",
+          "ask_seed": "Why is praise its own discipline, distinct from petition?",
+          "is_rest_day": true
+        },
+        {
+          "passage_ref": "Luke 18:9-14",
+          "theme_anchor": "publican",
+          "prayer_prompt": "Pray the publican's prayer in your own words: 'God, be merciful to me.'",
+          "ask_seed": "Why does Jesus contrast two pray-ers and not just describe a good one?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 17:1-26",
+          "theme_anchor": "high-priestly-prayer",
+          "prayer_prompt": "Read the prayer slowly. Notice that you, today, are inside what Jesus prays for.",
+          "ask_seed": "Catholic, Orthodox, Reformed, and Arminian readers all treasure John 17. What does each tradition emphasize?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 51",
+          "theme_anchor": "create-clean-heart",
+          "prayer_prompt": "Pray 'create in me a clean heart' as a request, not as a confession of failure.",
+          "ask_seed": "Why does David ask God to create rather than to fix?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Thessalonians 5:16-18",
+          "theme_anchor": "pray-without-ceasing",
+          "prayer_prompt": "Try one short phrase today, prayed at intervals — 'Lord, have mercy' is enough.",
+          "ask_seed": "Is 'pray without ceasing' realistic? What posture is Paul actually describing?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 26:36-46",
+          "theme_anchor": "gethsemane",
+          "prayer_prompt": "Pray something honest about what you do not want today, then add 'nevertheless, not my will.'",
+          "ask_seed": "Jesus prays the same thing three times. What does that say about what 'God's will be done' costs?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Hebrews 4:14-16",
+          "theme_anchor": "throne-of-grace",
+          "prayer_prompt": "Approach prayer today as someone who is welcomed, not someone who is auditioning.",
+          "ask_seed": "Why is the throne of grace described as a place to approach 'with confidence' specifically?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 145",
+          "theme_anchor": "every-day-praise",
+          "prayer_prompt": "Pray verse 2 as a small commitment: 'every day will I bless thee.'",
+          "ask_seed": "Why end this challenge with a psalm of unbroken praise?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "psalms-of-ascent",
+      "title": "Psalms of Ascent",
+      "description": "Draft — pending editorial. Psalms 120-134, the pilgrim psalms sung on the way up to Jerusalem.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 15,
+      "min_length": 5,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Psalms 120",
+          "theme_anchor": "in-distress",
+          "prayer_prompt": "Pray your honest distress.",
+          "ask_seed": "Why does the pilgrimage begin in trouble, not in arrival?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 121",
+          "theme_anchor": "lift-up-eyes",
+          "prayer_prompt": "Look up. Literally. Pray verse 1 outside if you can.",
+          "ask_seed": "What does the keeper not slumber or sleep mean for someone whose own sleep is broken?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 122",
+          "theme_anchor": "let-us-go",
+          "prayer_prompt": "Pray for the peace of a particular place.",
+          "ask_seed": "Why is gladness about going to worship its own discipline?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 123",
+          "theme_anchor": "eyes-on-the-master",
+          "prayer_prompt": "Wait on God like a servant on a master, not like a child wanting a thing.",
+          "ask_seed": "What does the simile of servant-eyes teach about prayer?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 124",
+          "theme_anchor": "if-the-lord",
+          "prayer_prompt": "Name a deliverance you didn't engineer. Thank God for it.",
+          "ask_seed": "Why does the psalm imagine the alternative — what would have happened — instead of moving on?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "sermon-on-the-mount",
+      "title": "Sermon on the Mount",
+      "description": "Draft — pending editorial. Matthew 5-7, Jesus' sustained teaching about the kingdom way.",
+      "category": "book",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 5:1-12",
+          "theme_anchor": "beatitudes",
+          "prayer_prompt": "Read the Beatitudes slowly. Which one names where you actually are today?",
+          "ask_seed": "Why begin with blessing instead of command?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 5:13-20",
+          "theme_anchor": "salt-and-light",
+          "prayer_prompt": "Pray about being salt where you are, today, in one specific place.",
+          "ask_seed": "What does it mean for righteousness to 'exceed' the scribes' and Pharisees'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 5:21-48",
+          "theme_anchor": "you-have-heard",
+          "prayer_prompt": "Pick one 'you have heard / but I say' that lands hard. Sit with it.",
+          "ask_seed": "Why does Jesus intensify rather than relax the law?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:1-18",
+          "theme_anchor": "in-secret",
+          "prayer_prompt": "Do something good today no one will see. Don't tell anyone.",
+          "ask_seed": "What is the difference between hiddenness and dishonesty?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:19-34",
+          "theme_anchor": "treasures-and-worry",
+          "prayer_prompt": "What treasure is your treasure right now? Pray honestly about that.",
+          "ask_seed": "How is the antidote to anxiety described — and how is it not?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 7:1-12",
+          "theme_anchor": "judge-not",
+          "prayer_prompt": "Notice a beam in your own eye before naming a mote in someone else's.",
+          "ask_seed": "Is Jesus prohibiting all judgment, or a particular kind?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 7:13-29",
+          "theme_anchor": "narrow-gate",
+          "prayer_prompt": "Pray about the foundation of your life — sand or rock — without shame.",
+          "ask_seed": "What separates the wise builder from the foolish one?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "teachings-of-jesus",
+      "title": "The Teachings of Jesus",
+      "description": "Three weeks listening to what Jesus taught, in his own words: the Sermon on the Mount, the greatest commandment, the new birth, and his last words to his disciples.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 21,
+      "min_length": 5,
+      "max_length": 21,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 5:1-16",
+          "theme_anchor": "the-beatitudes",
+          "prayer_prompt": "Read the blessings slowly. Thank God for the one you most need to hear today.",
+          "ask_seed": "Who does Jesus call blessed, and why would that have surprised the crowd?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 5:17-48",
+          "theme_anchor": "the-heart-of-the-law",
+          "prayer_prompt": "Ask God to show you where you keep a rule but miss its heart.",
+          "ask_seed": "What does Jesus mean when he says he came to fulfill the law, not abolish it?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:1-18",
+          "theme_anchor": "giving-praying-fasting-in-secret",
+          "prayer_prompt": "Pray the Lord's Prayer line by line, pausing after each one.",
+          "ask_seed": "Why does Jesus stress doing these things in secret?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:19-34",
+          "theme_anchor": "treasure-and-worry",
+          "prayer_prompt": "Name what you are anxious about, and place each thing before the Father.",
+          "ask_seed": "How does Jesus connect what we treasure with what we worry about?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 7",
+          "theme_anchor": "the-narrow-gate-and-two-builders",
+          "prayer_prompt": "Ask for what you need. Jesus says to ask, seek, and knock.",
+          "ask_seed": "What is the difference between the wise and the foolish builder?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 12:28-34",
+          "theme_anchor": "the-greatest-commandment",
+          "prayer_prompt": "Pray for love toward God, and toward one person by name.",
+          "ask_seed": "Why does Jesus join love for God and love for neighbor into one answer?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 3:1-21",
+          "theme_anchor": "born-again",
+          "prayer_prompt": "Thank God for his love for the world, and for you in it.",
+          "ask_seed": "What does Jesus mean by being born again?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 4:5-26",
+          "theme_anchor": "living-water",
+          "prayer_prompt": "Bring your own thirst to Jesus as honestly as the woman at the well did.",
+          "ask_seed": "What is the living water Jesus offers the Samaritan woman?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 6:27-38",
+          "theme_anchor": "love-your-enemies",
+          "prayer_prompt": "Pray for someone who has wronged you, by name if you can.",
+          "ask_seed": "Why does Jesus tell his followers to love their enemies?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 18:1-14",
+          "theme_anchor": "become-like-children",
+          "prayer_prompt": "Come to God today as a child comes: without a case to make.",
+          "ask_seed": "What does it mean to become like a little child in the kingdom of heaven?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 18:15-35",
+          "theme_anchor": "forgive-as-you-were-forgiven",
+          "prayer_prompt": "Ask God whether there is a debt you are still holding against someone.",
+          "ask_seed": "What does the parable of the unforgiving servant teach about forgiveness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 12:13-34",
+          "theme_anchor": "rich-toward-god",
+          "prayer_prompt": "Thank God for what you have, and ask what it is for.",
+          "ask_seed": "What does Jesus mean by being rich toward God?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 8:27-38",
+          "theme_anchor": "take-up-your-cross",
+          "prayer_prompt": "Answer Jesus's question for yourself: who do you say that he is?",
+          "ask_seed": "What does it mean to deny yourself and take up your cross?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 10:17-31",
+          "theme_anchor": "the-rich-young-ruler",
+          "prayer_prompt": "Ask God what you would find hardest to leave behind.",
+          "ask_seed": "Why did Jesus tell this man to sell everything he had?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 10:35-45",
+          "theme_anchor": "the-servant-of-all",
+          "prayer_prompt": "Pray for a chance to serve someone today without being noticed.",
+          "ask_seed": "How does Jesus redefine greatness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 6:25-40",
+          "theme_anchor": "the-bread-of-life",
+          "prayer_prompt": "Ask Jesus for the food that lasts.",
+          "ask_seed": "What does Jesus mean when he calls himself the bread of life?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 10:1-18",
+          "theme_anchor": "the-good-shepherd",
+          "prayer_prompt": "Rest in being known by name. Pray Psalm 23 if you know it.",
+          "ask_seed": "What marks the good shepherd in this passage?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 13:1-17",
+          "theme_anchor": "washing-feet",
+          "prayer_prompt": "Thank Jesus for stooping to serve, and ask whose feet you are to wash.",
+          "ask_seed": "Why did Jesus wash his disciples' feet?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 14:1-14",
+          "theme_anchor": "the-way-the-truth-the-life",
+          "prayer_prompt": "Bring your troubled heart to the one who said, let not your heart be troubled.",
+          "ask_seed": "What does Jesus mean by saying he is the way, the truth, and the life?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 15:1-17",
+          "theme_anchor": "abide-in-me",
+          "prayer_prompt": "Pray simply to remain in him today.",
+          "ask_seed": "What does it mean to abide in the vine?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 28:16-20",
+          "theme_anchor": "go-and-make-disciples",
+          "prayer_prompt": "Thank him for the promise: I am with you always.",
+          "ask_seed": "What does Jesus send his disciples to do in the Great Commission?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "tempted",
+      "title": "Strength in Temptation",
+      "description": "Draft — pending editorial. Scripture treats temptation as expected, not shameful.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 4:1-11",
+          "theme_anchor": "wilderness",
+          "prayer_prompt": "What part of you most relates to which temptation in this passage?",
+          "ask_seed": "Why is each of Jesus' answers a quotation from scripture?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Corinthians 10:13",
+          "theme_anchor": "common-to-man",
+          "prayer_prompt": "Pray about a temptation you thought was uniquely yours.",
+          "ask_seed": "Why does Paul start by saying temptation is 'common'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Hebrews 4:14-16",
+          "theme_anchor": "tempted-as-we",
+          "prayer_prompt": "Approach Jesus today as someone who knows.",
+          "ask_seed": "What does it cost the high priest to be 'tempted in every way'?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 7:14-25",
+          "theme_anchor": "honest-struggle",
+          "prayer_prompt": "Tell God the honest version of the struggle today, in Paul's tone.",
+          "ask_seed": "Why does Paul put this confession in present tense?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "topic-faith",
+      "title": "Topical Study: Faith",
+      "description": "Ten days on what faith is and what it looks like, from Abraham to the letter to the Hebrews.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 10,
+      "min_length": 5,
+      "max_length": 10,
+      "core_arc": [
+        {
+          "passage_ref": "Hebrews 11:1-16",
+          "theme_anchor": "what-faith-is",
+          "prayer_prompt": "Thank God for those who believed before you.",
+          "ask_seed": "How does Hebrews 11 define faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 15:1-6; Romans 4:13-25",
+          "theme_anchor": "abraham-believed-god",
+          "prayer_prompt": "Bring to God a promise you find hard to believe.",
+          "ask_seed": "Why was Abraham's faith counted to him as righteousness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 22:1-19",
+          "theme_anchor": "the-lord-will-provide",
+          "prayer_prompt": "Ask for trust in the God who provides.",
+          "ask_seed": "What does the testing of Abraham show about faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Habakkuk 2:1-4; Habakkuk 3:17-19",
+          "theme_anchor": "the-just-shall-live-by-faith",
+          "prayer_prompt": "Pray Habakkuk's words: yet I will rejoice in the Lord.",
+          "ask_seed": "What does it mean that the just shall live by faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 7:1-10",
+          "theme_anchor": "say-the-word",
+          "prayer_prompt": "Take Jesus at his word about one thing today.",
+          "ask_seed": "What did Jesus admire in the centurion's faith?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 14:22-33",
+          "theme_anchor": "faith-on-the-water",
+          "prayer_prompt": "Pray: Lord, save me.",
+          "ask_seed": "What does Peter's walk on the water teach about faith and doubt?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 10:5-17",
+          "theme_anchor": "faith-comes-by-hearing",
+          "prayer_prompt": "Thank God for whoever first brought you the word.",
+          "ask_seed": "How does faith come, according to Romans 10?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Ephesians 2:1-10",
+          "theme_anchor": "by-grace-through-faith",
+          "prayer_prompt": "Thank God that salvation is his gift.",
+          "ask_seed": "How do grace, faith, and works relate in Ephesians 2?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "James 2:14-26",
+          "theme_anchor": "faith-and-works",
+          "prayer_prompt": "Ask what your faith is asking you to do today.",
+          "ask_seed": "What does James mean when he says faith without works is dead?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Hebrews 11:32-40; Hebrews 12:1-3",
+          "theme_anchor": "looking-unto-jesus",
+          "prayer_prompt": "Fix your eyes on Jesus, and lay one weight down.",
+          "ask_seed": "How does the great cloud of witnesses help us run the race?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "topic-forgiveness",
+      "title": "Topical Study: Forgiveness",
+      "description": "Ten days on God's forgiveness of us, and ours of one another.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 10,
+      "min_length": 5,
+      "max_length": 10,
+      "core_arc": [
+        {
+          "passage_ref": "Psalm 32",
+          "theme_anchor": "the-joy-of-being-forgiven",
+          "prayer_prompt": "Stop keeping silent: tell God what you have been hiding.",
+          "ask_seed": "What does David say happened when he stopped hiding his sin?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalm 51",
+          "theme_anchor": "create-in-me-a-clean-heart",
+          "prayer_prompt": "Pray this psalm as your own.",
+          "ask_seed": "What does David ask God for in Psalm 51?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalm 103",
+          "theme_anchor": "as-far-as-the-east-is-from-the-west",
+          "prayer_prompt": "Bless the Lord, and forget not all his benefits.",
+          "ask_seed": "How does Psalm 103 describe God's forgiveness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 1:10-20; Micah 7:18-20",
+          "theme_anchor": "though-your-sins-be-as-scarlet",
+          "prayer_prompt": "Thank God that he delights in mercy.",
+          "ask_seed": "What do Isaiah and Micah say about how fully God forgives?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 7:36-50",
+          "theme_anchor": "she-loved-much",
+          "prayer_prompt": "Thank Jesus as someone who has been forgiven much.",
+          "ask_seed": "Why does Jesus say the woman loved much?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 15:11-32",
+          "theme_anchor": "the-father-ran",
+          "prayer_prompt": "Come home in prayer.",
+          "ask_seed": "What does the father's welcome show about forgiveness?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 18:21-35",
+          "theme_anchor": "seventy-times-seven",
+          "prayer_prompt": "Ask God about the debt you are still counting.",
+          "ask_seed": "What does seventy times seven mean?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Matthew 6:9-15; 1 John 1:5-10",
+          "theme_anchor": "forgive-us-as-we-forgive",
+          "prayer_prompt": "Confess plainly, and receive what he promises.",
+          "ask_seed": "How does Jesus connect being forgiven with forgiving others?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Genesis 45:1-15; Genesis 50:15-21",
+          "theme_anchor": "joseph-forgives-his-brothers",
+          "prayer_prompt": "Pray for someone who meant you harm.",
+          "ask_seed": "How was Joseph able to forgive his brothers?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Ephesians 4:25-32; Colossians 3:12-17",
+          "theme_anchor": "as-god-in-christ-forgave-you",
+          "prayer_prompt": "Ask for a tender heart toward one person today.",
+          "ask_seed": "What reason does Paul give for forgiving one another?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "topic-holy-spirit",
+      "title": "Topical Study: The Holy Spirit",
+      "description": "Two weeks on who the Holy Spirit is and what he does, from creation to Pentecost to the life of the believer.",
+      "category": "study",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 5,
+      "max_length": 14,
+      "core_arc": [
+        {
+          "passage_ref": "Genesis 1:1-2; Psalm 104:24-30",
+          "theme_anchor": "the-spirit-in-creation",
+          "prayer_prompt": "Thank the Spirit who gives life and breath.",
+          "ask_seed": "What role does the Spirit of God have in creation?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Ezekiel 36:22-28; Ezekiel 37:1-14",
+          "theme_anchor": "a-new-heart-and-dry-bones",
+          "prayer_prompt": "Ask God to breathe on what seems dead.",
+          "ask_seed": "What does God promise to do by his Spirit in Ezekiel 36 and 37?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Joel 2:28-32",
+          "theme_anchor": "i-will-pour-out-my-spirit",
+          "prayer_prompt": "Thank God that his Spirit is poured out on all kinds of people.",
+          "ask_seed": "Who receives the Spirit in Joel's prophecy?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 3:15-22; Luke 4:14-21",
+          "theme_anchor": "the-spirit-upon-jesus",
+          "prayer_prompt": "Worship the one anointed to preach good news to the poor.",
+          "ask_seed": "What does the Spirit do in the baptism and first sermon of Jesus?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 3:1-8",
+          "theme_anchor": "born-of-the-spirit",
+          "prayer_prompt": "Thank God for new life you could not give yourself.",
+          "ask_seed": "What does it mean to be born of the Spirit?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 7:37-39; John 14:15-27",
+          "theme_anchor": "the-comforter-promised",
+          "prayer_prompt": "Ask the Comforter to bring to mind what Jesus has said.",
+          "ask_seed": "What does Jesus promise the Spirit will do for his disciples?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "John 16:5-15",
+          "theme_anchor": "he-will-guide-you-into-all-truth",
+          "prayer_prompt": "Ask to be guided into truth today.",
+          "ask_seed": "Why does Jesus say it is better for his disciples that he goes away?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:1-21",
+          "theme_anchor": "pentecost",
+          "prayer_prompt": "Pray for the church to speak plainly of the works of God.",
+          "ask_seed": "What happened on the day of Pentecost?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Acts 2:37-47",
+          "theme_anchor": "the-first-church",
+          "prayer_prompt": "Pray for your own church by name.",
+          "ask_seed": "What did life look like for the first believers after Pentecost?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 8:1-17",
+          "theme_anchor": "life-in-the-spirit",
+          "prayer_prompt": "Call on God as Father.",
+          "ask_seed": "What does it mean to walk after the Spirit and not after the flesh?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Romans 8:18-30",
+          "theme_anchor": "the-spirit-helps-our-weakness",
+          "prayer_prompt": "When you have no words, rest in the Spirit who prays for you.",
+          "ask_seed": "How does the Spirit help us when we do not know how to pray?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "1 Corinthians 12:1-13",
+          "theme_anchor": "many-gifts-one-spirit",
+          "prayer_prompt": "Thank God for a gift you see in someone else.",
+          "ask_seed": "Why does the Spirit give different gifts to different people?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Galatians 5:16-26",
+          "theme_anchor": "the-fruit-of-the-spirit",
+          "prayer_prompt": "Ask for the fruit you most lack.",
+          "ask_seed": "What is the fruit of the Spirit?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Ephesians 1:3-14; Ephesians 5:15-21",
+          "theme_anchor": "sealed-and-filled",
+          "prayer_prompt": "Give thanks to God for everything you can name.",
+          "ask_seed": "What does it mean to be sealed with the Spirit and filled with the Spirit?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "layer_cross_references",
+        "rest_day_every": 0
+      }
+    },
+    {
+      "id": "weary",
+      "title": "Rest for the Weary",
+      "description": "Draft — pending editorial. Scripture's vocabulary for rest, addressed to the worn-out.",
+      "category": "emotional",
+      "safety_sensitive": true,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Matthew 11:28-30",
+          "theme_anchor": "come-unto-me",
+          "prayer_prompt": "Receive the invitation today. Do less, not more.",
+          "ask_seed": "Jesus offers a yoke as rest. Why is that not a contradiction?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Mark 6:30-32",
+          "theme_anchor": "come-away",
+          "prayer_prompt": "Schedule a small withdrawal today — even fifteen minutes.",
+          "ask_seed": "Why does Jesus pull the disciples away when there's still work to do?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 127:1-2",
+          "theme_anchor": "he-gives-sleep",
+          "prayer_prompt": "Pray about your sleep. Treat it as belonging to God.",
+          "ask_seed": "What does the psalm mean by 'vain' striving?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Isaiah 40:28-31",
+          "theme_anchor": "wait-and-renew",
+          "prayer_prompt": "What are you waiting on? Pray it as a posture, not a delay.",
+          "ask_seed": "Why does Isaiah pair waiting with strength?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    },
+    {
+      "id": "word-foundations",
+      "title": "Engaging Scripture",
+      "description": "Draft — pending editorial. Learning to read the Bible as scripture, not just as a text.",
+      "category": "discipline",
+      "safety_sensitive": false,
+      "default_length": 14,
+      "min_length": 7,
+      "max_length": 30,
+      "core_arc": [
+        {
+          "passage_ref": "Psalms 1",
+          "theme_anchor": "delight-in-the-law",
+          "prayer_prompt": "What would 'meditating day and night' look like in your week — small and real?",
+          "ask_seed": "What does the psalm mean by 'meditating' on scripture?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Psalms 119:9-16",
+          "theme_anchor": "hidden-in-my-heart",
+          "prayer_prompt": "Pick one verse to memorize this week. Don't worry about the rest.",
+          "ask_seed": "Why does this psalm describe scripture in so many different ways?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "Luke 24:13-35",
+          "theme_anchor": "burning-hearts",
+          "prayer_prompt": "Read scripture today the way the Emmaus pair did — listening for the one being explained.",
+          "ask_seed": "Why does Jesus go through the whole canon before breaking the bread?",
+          "is_rest_day": false
+        },
+        {
+          "passage_ref": "2 Timothy 3:14-17",
+          "theme_anchor": "profitable-for",
+          "prayer_prompt": "Pray for one of the four uses Paul names: teaching, reproof, correction, training.",
+          "ask_seed": "What do Catholic, Orthodox, Reformed, and Arminian readers each emphasize about 'God-breathed' scripture?",
+          "is_rest_day": false
+        }
+      ],
+      "expansion_rules": {
+        "shorter_than_arc": "select_highlights",
+        "equal_to_arc": "one_to_one",
+        "longer_than_arc": "revisit_with_new_angle",
+        "rest_day_every": 7
+      }
+    }
+  ]
+}
