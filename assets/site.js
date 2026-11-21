@@ -16,7 +16,7 @@
   },true);
 
   // Download bar on every page (11-12). Blog posts ship their own #hfd-sticky + script, so only add it where missing.
-  if(!document.getElementById('hfd-sticky')){
+  if(!document.getElementById('hfd-sticky')&&!document.body.hasAttribute('data-no-sticky')){
     var K='hfd_cta_dismissed',bar=document.createElement('div');
     bar.id='hfd-sticky';bar.setAttribute('role','region');bar.setAttribute('aria-label','Get Healthy Faith');bar.hidden=true;
     bar.innerHTML='<div class="in"><span class="tx">Get <strong>Healthy Faith</strong> free &middot; word study &amp; sermon notes</span>'+

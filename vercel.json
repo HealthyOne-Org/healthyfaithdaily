@@ -10,6 +10,10 @@
     { "source": "/ig", "destination": "https://www.instagram.com/healthyfaithdaily/", "permanent": false },
     { "source": "/ios", "destination": "https://apps.apple.com/us/app/healthy-faith-bible-study/id6781374849?pt=128318750&ct=hfd_short&mt=8", "permanent": false },
     { "source": "/android", "destination": "https://play.google.com/store/apps/details?id=com.healthyone.healthyfaith", "permanent": false },
+    { "source": "/download/mac", "destination": "https://github.com/hardawayhealth25-gif/healthy-faith-study-releases/releases/latest/download/HealthyFaithStudy-Mac-AppleSilicon.dmg", "permanent": false },
+    { "source": "/download/mac-intel", "destination": "https://github.com/hardawayhealth25-gif/healthy-faith-study-releases/releases/latest/download/HealthyFaithStudy-Mac-Intel.dmg", "permanent": false },
+    { "source": "/download/windows", "destination": "https://apps.microsoft.com/detail/9NBRM8BNFCKN?cid=hfd_short", "permanent": false },
+    { "source": "/desktop", "destination": "/download", "permanent": false },
     { "source": "/bible", "destination": "https://play.google.com/store/apps/details?id=com.healthyone.faithdailybible", "permanent": false }
   ],
   "headers": [
