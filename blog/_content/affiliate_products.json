@@ -2,7 +2,7 @@
  "_README": "Amazon Associates config for Healthy Faith Daily, same approach as HealthyOne (HardawayLabs/affiliate_products.json). scripts/blog_publish.py picks up to 3 products per post by keyword match (or the post JSON's optional \"affiliate\": [search, ...] list) and renders them below the app CTA with the disclosure. SEARCH links on purpose so discontinued products never 404. Only products listed here are used; never invent queries or tags. Items marked popular:true were on Amazon's Christian Books & Bibles best-seller lists when added (2026-11-10).",
  "amazon_associate_tag": "healthyone00-20",
  "amazon_search_url_template": "https://www.amazon.com/s?k={QUERY}&tag={TAG}",
- "disclosure": "As an Amazon Associate, Healthy Faith Daily (Hardaway Labs) earns from qualifying purchases. These links may earn us a small commission at no extra cost to you. We only suggest things we think are useful for reading and studying the Bible.",
+ "disclosure": "As an Amazon Associate, Healthy Faith Daily earns from qualifying purchases. These links may earn us a small commission at no extra cost to you. We only suggest things we think are useful for reading and studying the Bible.",
  "max_products_per_post": 3,
  "products": [
   {

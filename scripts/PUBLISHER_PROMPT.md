@@ -5,7 +5,7 @@ spread from Healthy Money (8:31) and HealthyOne (8:51). Working directory: `~/Co
 checkout of `HealthyOne-Org/healthyfaithdaily` (main deploys to Vercel). One run = at most one post. Chris is
 not present.
 
-healthyfaithdaily.com is the website for two Bible apps by Hardaway Labs: **Healthy Faith** (study app: KJV +
+healthyfaithdaily.com is the website for two Bible apps: **Healthy Faith** (study app: KJV +
 Strong's word study you can ask questions of, sermon notes from a recording or YouTube link, guided Scripture
 paths for anxiety/grief/doubt called "The Way", reading plans, prayer journal, circles; Premium $3.99/mo or
 $29.99/yr, 30-day trial) and **Faith Daily Bible** (free Bible, 17 translations English + Spanish, audio,

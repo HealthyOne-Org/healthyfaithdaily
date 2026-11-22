@@ -127,7 +127,7 @@ def render(post: dict, date: dt.date) -> str:
     article_ld = json.dumps({
         "@context": "https://schema.org", "@type": "Article", "headline": title,
         "author": {"@type": "Person", "name": "Chris Hardaway"},
-        "publisher": {"@type": "Organization", "name": "Hardaway Labs LLC"},
+        "publisher": {"@type": "Organization", "name": "Healthy Faith Daily"},
         "datePublished": date.isoformat(), "dateModified": date.isoformat(),
         "description": post["description"].strip(),
         "image": f"{SITE}/blog/images/{slug}-hero.jpg",
