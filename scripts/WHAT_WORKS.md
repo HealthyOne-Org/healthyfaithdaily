@@ -1,6 +1,6 @@
 # What works on Healthy Faith Daily
 
-Updated 2026-11-16 by hermes-skills `blog_learner.py` (every Sunday) from the last 28 days of PostHog data. Writers: read this before picking an angle or a title. It does not replace BLOG_PIPELINE.md or the content rules.
+Updated 2026-11-22 by hermes-skills `blog_learner.py` (every Sunday) from the last 28 days of PostHog data. Writers: read this before picking an angle or a title. It does not replace BLOG_PIPELINE.md or the content rules.
 
 **Last 28 days:** 1 post visitors (0 from search engines), 0 app taps, 0 affiliate taps. Top sources: $direct 1, www.healthyfaithdaily.com 1.
 
