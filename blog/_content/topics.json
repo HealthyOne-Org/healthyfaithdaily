@@ -48,12 +48,13 @@
   "done": "2026-11-13"
  },
  {
-  "slug": "news-lesson-1",
-  "keyword": "(choose from the story: what people are searching this week)",
-  "topic": "This week's biggest news story and the biblical lesson in it. Pick the story at write time.",
+  "slug": "what-the-bible-says-about-grieving-animals-2026",
+  "keyword": "what the bible says about animals",
+  "topic": "Fiona the hippo died at the Cincinnati Zoo on 2026-11-19: what the Bible says about animals, grieving them, and whether they go to heaven.",
   "angle": "Current-events lane (scripts/BLOG_PIPELINE.md lane 6). RESEARCH FIRST with web search: find the news story of the last 7 days that the most people are talking about and searching for, and that has a real biblical lesson. Then RENAME this entry's slug to fit the story (e.g. what-the-bible-says-about-<topic>-2026) before building. Follow every lane 6 rule.",
   "lane": "current_events",
-  "image_from": "what-does-selah-mean-in-the-bible"
+  "image_from": "what-does-selah-mean-in-the-bible",
+  "done": "2026-11-24"
  },
  {
   "slug": "what-does-the-bible-say-about-drug-addiction",
